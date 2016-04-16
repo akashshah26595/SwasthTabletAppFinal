@@ -1,0 +1,15 @@
+<resources>
+    <string name="chevron">Go</string>
+    <string name="swasth_motto_textview">Swasth Foundation</string>
+    <string name="app_name">Service Feedback</string>
+    <string name="fill_feedback_button">Fill feedback</string>
+    <string name="enter_card_number_edittext">Enter card number</string>
+    <string name="thank_you_textview">Thank you for filling the feedback!</string>
+    <string name="your_credits_are_textview">Your credits are now:</string>
+    <string name="select_family_member_textview">Select family member:</string>
+
+    <string name="toast_thankyou">Thank you for the feedback.</string>
+    <string name="toast_select_choice">Select a choice!</string>
+    <string name="toast_credits_after_feedback">Your Credits after feedback: </string>
+    <string name="toast_write_message">Please write a message!</string>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">
+        स्वस्थ
+    </string>
+
+    <string name="swasth_motto_textview">
+        स्वस्थ
+    </string>
+
+    <string name="fill_feedback_button">प्रतिक्रिया भरें
+    </string>
+
+    <string name="enter_card_number_edittext">
+        कृपया कार्ड नंबर डालिए
+    </string>
+    <string name="thank_you_textview">प्रतिक्रिया भरने के लिए धन्यवाद!
+    </string>
+    <string name="select_family_member_textview">उचित नाम का चयन करें:
+    </string>
+
+
+    <string name="toast_thankyou">
+        प्रतिक्रिया भरने के लिए धन्यवाद !
+    </string>
+    <string name="toast_select_choice">
+        एक ऑप्शन चुनिये
+    </string>
+    <string name="toast_credits_after_feedback">
+        प्रतिक्रिया भरने के बाद आपके क्रेडिट:
+    </string>
+
+    <string name="toast_write_message">
+        इसे खाली मत छोडो
+    </string>
+</resources>

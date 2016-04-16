@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:paddingLeft="8dp"
+        android:paddingStart="8dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:id="@+id/patientFName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="abcd"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/patientLName"
+        android:paddingRight="8dp"
+        android:layout_marginRight="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/patientFName"
+        android:layout_toRightOf="@id/patientFName"
+        android:paddingLeft="8dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:text="djsdks"
+        android:textSize="30sp" />
+
+    <View
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_below="@id/patientLName"
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="2dp" />
+
+    <ImageView
+        android:alpha="0.5"
+        android:contentDescription="@string/chevron"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ic_chevron_right_black_24dp_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+
+</RelativeLayout>

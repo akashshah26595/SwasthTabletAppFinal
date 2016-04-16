@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.swasth.swasthtabletapplication.MainActivity">
+
+    <Spinner
+        android:id="@+id/languageSpinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="80dp" />
+
+    <ImageView
+        android:id="@+id/swasthLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/languageSpinner"
+        android:layout_marginBottom="8dp"
+        android:contentDescription="@string/swasth_motto_textview"
+        android:src="@drawable/ic_swasth_logo" />
+
+    <TextView
+        android:id="@+id/swasth_motto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/swasthLogo"
+        android:layout_marginBottom="80dp"
+        android:gravity="center"
+        android:text="@string/swasth_motto_textview"
+        android:textColor="@color/colorPrimary"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/cardNoEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/swasth_motto"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:hint="@string/enter_card_number_edittext"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/fillFeedbackButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardNoEditText"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/button_background"
+        android:padding="12dp"
+        android:text="@string/fill_feedback_button"
+        android:textSize="20sp" />
+</RelativeLayout>
